@@ -1,0 +1,51 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 560">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#8f55ff"/><stop offset=".48" stop-color="#3c0876"/><stop offset="1" stop-color="#120018"/></linearGradient>
+    <linearGradient id="paper" x1="0" x2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#eee7ff"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="22" stdDeviation="18" flood-color="#05000f" flood-opacity=".35"/></filter>
+  </defs>
+  <rect width="760" height="560" fill="none"/>
+  <circle cx="395" cy="255" r="230" fill="url(#bg)" opacity=".95"/>
+  <ellipse cx="405" cy="468" rx="285" ry="46" fill="#a35cff" opacity=".35"/>
+  <ellipse cx="405" cy="454" rx="255" ry="34" fill="#1d0735"/>
+
+  <g filter="url(#shadow)">
+    <rect x="286" y="88" width="238" height="325" rx="16" fill="#21112f" stroke="#7a5a3a" stroke-width="8"/>
+    <rect x="306" y="110" width="198" height="285" rx="8" fill="linear-gradient(#3c1957,#1a0d25)"/>
+    <text x="405" y="198" text-anchor="middle" fill="#fff" font-family="Georgia,serif" font-size="70" font-style="italic">Oh</text>
+    <text x="405" y="235" text-anchor="middle" fill="#fff" font-family="Arial" font-size="16" letter-spacing="8">STUDIO</text>
+    <text x="405" y="300" text-anchor="middle" fill="#fff" font-family="Segoe Script, Brush Script MT, cursive" font-size="27">Tu idea.</text>
+    <text x="405" y="336" text-anchor="middle" fill="#fff" font-family="Segoe Script, Brush Script MT, cursive" font-size="27">Nuestro diseño.</text>
+    <text x="405" y="372" text-anchor="middle" fill="#fff" font-family="Segoe Script, Brush Script MT, cursive" font-size="27">Tu éxito.</text>
+    <path d="M480 352c28-34 62-4 17 35" fill="none" stroke="#f4d21f" stroke-width="5" stroke-linecap="round"/>
+    <path d="M336 132c20-10 28-3 14 15" fill="none" stroke="#f4d21f" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="506" y="132" width="158" height="305" rx="32" fill="#101015" transform="rotate(7 585 285)"/>
+    <rect x="520" y="154" width="130" height="258" rx="20" fill="#fff" transform="rotate(7 585 285)"/>
+    <circle cx="579" cy="204" r="24" fill="#19002e"/>
+    <text x="579" y="213" text-anchor="middle" fill="#fff" font-family="Georgia,serif" font-size="24" font-style="italic">Oh</text>
+    <rect x="538" y="243" width="84" height="14" rx="7" fill="#7c3aed" transform="rotate(7 580 250)"/>
+    <rect x="531" y="280" width="38" height="48" rx="6" fill="#231532" transform="rotate(7 550 304)"/>
+    <rect x="579" y="286" width="38" height="48" rx="6" fill="#cfa61e" transform="rotate(7 598 310)"/>
+    <rect x="525" y="342" width="38" height="48" rx="6" fill="#6f35ee" transform="rotate(7 544 366)"/>
+    <rect x="573" y="348" width="38" height="48" rx="6" fill="#342047" transform="rotate(7 592 372)"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="126" y="310" width="150" height="105" rx="10" fill="#21112f" transform="rotate(-5 201 362)"/>
+    <text x="201" y="365" text-anchor="middle" fill="#fff" font-family="Georgia,serif" font-size="42" font-style="italic" transform="rotate(-5 201 362)">Oh</text>
+    <path d="M162 385c38-17 70-12 88-30" fill="none" stroke="#7c3aed" stroke-width="5" stroke-linecap="round"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <path d="M205 210h112l-18 210h-76z" fill="url(#paper)"/>
+    <rect x="201" y="188" width="120" height="30" rx="15" fill="#121017"/>
+    <text x="261" y="315" text-anchor="middle" fill="#16002e" font-family="Georgia,serif" font-size="45" font-style="italic">Oh</text>
+    <path d="M220 352c62-18 75-12 92-35" fill="none" stroke="#7c3aed" stroke-width="7" stroke-linecap="round"/>
+  </g>
+
+  <path d="M170 160c35-20 58-10 39 16" fill="none" stroke="#f4d21f" stroke-width="5" stroke-linecap="round"/>
+  <path d="M622 95l12-20M637 113l25-8M615 116l-2-23" fill="none" stroke="#f4d21f" stroke-width="5" stroke-linecap="round"/>
+</svg>

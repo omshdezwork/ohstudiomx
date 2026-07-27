@@ -1,0 +1,269 @@
+@media (max-width: 900px) {
+  .page-frame,
+  .site-header {
+    width: 100%;
+  }
+
+  .service-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 760px) {
+  .container,
+  .nav-shell {
+    width: min(100% - 34px, 760px);
+  }
+
+  .site-header {
+    padding: 10px 0;
+  }
+
+  .nav-shell {
+    grid-template-columns: 78px 1fr auto;
+  }
+
+  .brand {
+    width: 64px;
+  }
+
+  .menu-toggle {
+    display: block;
+    grid-column: 3;
+  }
+
+  .nav-cta {
+    display: none;
+  }
+
+  .nav-panel {
+    position: fixed;
+    top: 66px;
+    right: 17px;
+    left: 17px;
+    display: grid;
+    gap: 0;
+    padding: 8px;
+    background: rgba(50, 20, 110, .96);
+    border: 1px solid rgba(255, 255, 255, .16);
+    border-radius: 16px;
+    box-shadow: 0 20px 42px rgba(0, 0, 0, .24);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: opacity .2s ease, transform .2s ease, visibility .2s ease;
+  }
+
+  .nav-panel.open {
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+  }
+
+  .nav-panel a {
+    padding: 12px;
+    border-bottom: 1px solid rgba(255, 255, 255, .08);
+  }
+
+  .nav-panel a::after {
+    display: none;
+  }
+
+  .nav-panel a:hover {
+    transform: none;
+  }
+
+  .nav-panel a:last-child {
+    border-bottom: 0;
+  }
+
+  .hero {
+    min-height: 720px;
+    padding: 142px 0 145px;
+    background-image: url("../assets/images/ohstudio-hero-wave.png");
+    background-position: 58% 62%;
+    background-size: cover;
+  }
+
+  .hero::before {
+    inset: 0;
+    width: auto;
+    height: auto;
+    background:
+      linear-gradient(180deg, rgba(34, 8, 88, .78) 0%, rgba(82, 28, 170, .48) 48%, rgba(137, 55, 230, .08) 100%),
+      radial-gradient(circle at 24% 24%, rgba(150, 91, 255, .34), transparent 36%);
+    -webkit-mask-position: 58% 62%;
+    mask-position: 58% 62%;
+    opacity: .95;
+  }
+
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: 28px;
+    min-height: 420px;
+  }
+
+  .hero-copy {
+    max-width: 440px;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  .intro,
+  .projects,
+  .packages,
+  .about {
+    padding: 54px 0;
+  }
+
+  .service-grid,
+  .price-cards,
+  .feature-grid,
+  .footer-grid,
+  .split-heading {
+    grid-template-columns: 1fr;
+  }
+
+  .feature {
+    padding: 64px 0;
+  }
+
+  .studio-scene {
+    min-height: 330px;
+    aspect-ratio: 1.2;
+    border-radius: 28px 28px 70px 28px;
+  }
+
+  .studio-scene img {
+    object-position: 44% 50%;
+  }
+
+  .gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .gallery-card {
+    min-height: 190px;
+  }
+
+  .split-heading {
+    align-items: start;
+    gap: 12px;
+  }
+
+  .side-note {
+    max-width: none;
+  }
+
+  .process-line {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .process-line::before {
+    top: 0;
+    bottom: 0;
+    left: 21px;
+    right: auto;
+    border-top: 0;
+    border-left: 1px dashed rgba(255, 255, 255, .38);
+  }
+
+  .process-line li {
+    min-height: 64px;
+    padding-left: 64px;
+    text-align: left;
+  }
+
+  .process-line span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+  }
+
+  .about {
+    padding: 64px 0;
+  }
+
+  .about .feature-grid {
+    gap: 28px;
+  }
+
+  .about-visual {
+    border-radius: 22px 22px 62px 22px;
+  }
+
+  .footer-contact {
+    gap: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container,
+  .nav-shell {
+    width: min(100% - 28px, 760px);
+  }
+
+  .hero {
+    min-height: 700px;
+    padding-top: 132px;
+    padding-bottom: 132px;
+    background-position: 64% 64%;
+  }
+
+  .hero::before {
+    -webkit-mask-position: 64% 64%;
+    mask-position: 64% 64%;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  h2 {
+    font-size: 25px;
+  }
+
+  .hero-actions,
+  .hero-actions .btn,
+  .footer-actions .btn {
+    width: 100%;
+  }
+
+  .service-card {
+    min-height: auto;
+  }
+
+  .studio-scene {
+    min-height: 280px;
+    aspect-ratio: .92;
+    border-radius: 24px 24px 56px 24px;
+  }
+
+  .studio-scene img {
+    object-position: 38% 50%;
+  }
+
+  .gallery-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery-card {
+    min-height: 240px;
+  }
+
+  .about-visual img {
+    aspect-ratio: 4 / 3;
+  }
+
+  .footer-script {
+    font-size: 24px;
+  }
+}
